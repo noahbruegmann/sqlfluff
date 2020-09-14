@@ -1,0 +1,7 @@
+- id: sqlfluff
+  name: SQL Fluff
+  description: "The SQL Linter for humans"
+  entry: diff-quality --violations sqlfluff
+  language: python
+  language_version: python3
+  types: [sql]
